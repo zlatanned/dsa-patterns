@@ -13,7 +13,7 @@
     Space: O(n)
 */
 
-const containsDuplicate = function(nums) {
+const containsDuplicate = (nums) => {
     if (nums.length < 2) return false; // Optimization for small arrays
 
     const seen = new Set();

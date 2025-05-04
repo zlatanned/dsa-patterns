@@ -13,7 +13,7 @@
     Space: O(n)
 */
 
-const twoSum = function(nums, target) {
+const twoSum = (nums, target) => {
     const hashmap = {};
     for (let i = 0; i < nums.length; i++) {
         const diff = target - nums[i];

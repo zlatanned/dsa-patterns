@@ -13,7 +13,7 @@
     Space: O(n * k)
 */
 
-const groupAnagrams = function(strs) {
+const groupAnagrams = (strs) => {
     const map = {};
 
     for (let str of strs) {
